@@ -1,0 +1,69 @@
+/* Class Selectors */
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+.card-body{
+
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+
+}
+
+
+/* ID selectors */
+
+#top-Section{
+
+
+  margin-left: 190px;
+  font-family: 'Hind', sans-serif;
+
+}
+
+#main-Section{
+
+  font-family: 'Monda', sans-serif;
+
+}
+
+#work-Title{
+
+  
+  margin-left: auto;
+  margin-right: auto 
+
+}
+
+#code-Card{
+
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#code-Refractor-Photo{
+
+  width: 100%;
+  height: 20vw;
+  object-fit: contain;
+
+}
+
+ #meta-Cube-Photo{
+
+  width: 100%;
+  height: 20vw;
+  object-fit: fill;
+
+} 
+
+
+
+/* @media only screen and (min-width: 600px) {} */
