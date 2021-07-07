@@ -15,7 +15,7 @@ video {
 /* Class Selectors */
 
 .card-img-top {
-  width: 100%;
+  min-width: 100%;
   height: 25vw;
   object-fit: cover;
 }
@@ -29,6 +29,26 @@ video {
 }
 
 
+.linear-wipe {
+  
+  
+  background-image: linear-gradient(to right, #00F260, #f79d00, #e2e605, #64f38c);
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+  
+  background-size: 300%;
+  background-position: -100%;  
+  
+  animation: animatedText 5s infinite alternate-reverse;
+}
+
+@keyframes animatedText{
+  to{
+    background-position: 100%; 
+  }
+}
+
 
 
 /* ID selectors */
@@ -41,12 +61,6 @@ video {
 
 }
 
-#page-Title{
-
-
-  color: yellow;
-
-}
 
 #main-Section{
 
@@ -54,15 +68,9 @@ video {
 
 }
 
-#work-Title{
-
-  
-  margin-left: auto;
-  margin-right: auto 
-
-}
-
-#code-Card{
+#work-Title,
+#code-Card,
+#weather-Card{
 
 
   margin-left: auto;
@@ -70,22 +78,22 @@ video {
 
 }
 
-
+#stock-Scanner-Photo,
 #code-Refractor-Photo{
 
   width: 100%;
-  height: 20vw;
+  height: 25vw;
   object-fit: contain;
 
 }
 
- #meta-Cube-Photo{
+ /* #meta-Cube-Photo{
 
   width: 100%;
   height: 20vw;
   object-fit: contain;
 
-} 
+}  */
 
 
 
