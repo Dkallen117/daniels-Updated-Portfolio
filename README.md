@@ -8,11 +8,10 @@
 </p>
   
 <p align="center">
-    <img src="https://img.shields.io/badge/Javascript-yellow" />
     <img src="https://img.shields.io/badge/HTML-blue" />
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/CSS-orange" />
     <img src="https://img.shields.io/badge/MDBoostrap-green" />
-     <img src="https://img.shields.io/badge/CSS-orange" />
- 
 </p>
 
 ## Description 
