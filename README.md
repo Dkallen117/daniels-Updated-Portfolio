@@ -1,4 +1,18 @@
-# daniels-Updated-Portfolio ![GitHub top language](https://img.shields.io/github/languages/top/Dkallen117/daniels-Updated-Portfolio)
+# daniels-Updated-Portfolio 
+
+<p align="center">
+    <img src="https://img.shields.io/github/repo-size/Dkallen117/daniels-Updated-Portfolio" />
+    <img src="https://img.shields.io/github/languages/top/Dkallen117/daniels-Updated-Portfolio"  />
+    <img src="https://img.shields.io/github/issues/Dkallen117/daniels-Updated-Portfolio" />
+    <img src="https://img.shields.io/github/last-commit/Dkallen117/daniels-Updated-Portfolio" >
+</p>
+  
+<p align="center">
+    <img src="https://img.shields.io/badge/HTML-blue" />
+    <img src="https://img.shields.io/badge/Javascript-yellow" />
+    <img src="https://img.shields.io/badge/CSS-orange" />
+    <img src="https://img.shields.io/badge/MDBoostrap-green" />
+</p>
 
 ## Description 
 
