@@ -30,22 +30,22 @@
   
   <body>
 
-  <header>
+   <header>
 
-  
-    
     <!-- Container for header  -->
-    <div class="row" id="top-Section">
+    <div class="row d-flex justify-content-center" id="top-Section">
 
-      
-      
+      <video playsinline autoplay muted loop id="bgvid">
+        <source src="./assets/images/circuit-video.mp4" type="video/mp4">
+      </video>
         <!-- Nav Buttons-->
         <nav>
-          <video playsinline autoplay muted loop id="bgvid">
-            <source src="./assets/images/circuit-video.mp4" type="video/mp4">
-          </video>
-          <h1 class="animated fadeInLeft linear-wipe">Daniels Portfolio</h1>
-          <ul class="nav nav-pills animated fadeInLeft">
+          
+          <div class="animated fadeInLeft">
+            <h1 class="linear-wipe">Daniels Portfolio</h1>
+          </div>
+          <div>
+          <ul class="nav nav-pills animated fadeInRight">
             <li class="nav-item mr-2">
               <a class="nav-link active light-blue" 
               href="https://github.com/Dkallen117" 
@@ -76,195 +76,157 @@
   </header>
 
 
-<main class="container">
-
+ <main class="container">
 
   <div class="row" id="main-Section">
-
-           
-            <h1 class="animated slideInLeft mt-2" id="work-Title">Work</h1>
+       
+    <h1 class="animated slideInLeft mt-2" id="work-Title">Work</h1>
             
+      <div class="row row-cols-1 row-cols-md-2">
 
-            <div class="row row-cols-1 row-cols-md-2">
+        <div class="col-md-4 col-sm-12 mb-4">
 
-
-              <div class="col-md-4 col-sm-12 mb-4">
-
-                <!-- Stock Scanner Card -->
-                <div class="card animated fadeInUp text-center">
-            
+          <!-- Stock Scanner Card -->
+          <div class="card animated fadeInUp text-center">
+                            
+            <div class="bg-image hover zoom">
+            <a href="https://dkallen117.github.io/StockScanner/" target="_blank">
+            <img class="card-img-top img-fluid" id="stock-Scanner-Photo" src="./assets/images/Stock-Scanner.jpg"
+                 alt="Card image cap">
+            </div>
+            <div class="mask rgba-white-slight"></div>
+            </a>
+                          
+            <div class="card-body">
+                       
+             <h4 class="card-title">Stock Scanner</h4>               
+              <p class="card-text">Click the image to be taken to my first team-based website
+                                   utilizing two different APIs.</p>
+               <a href="https://github.com/Dkallen117/StockScanner" target="_blank">
+               <button type="button" class="btn blue-gradient btn-lg">GitHub Respository</button>
+                </a>
                   
-                  
-                    <div class="bg-image hover zoom">
-                    <a href="https://dkallen117.github.io/StockScanner/" target="_blank">
-                    <img class="card-img-top img-fluid" id="stock-Scanner-Photo" src="./assets/images/Stock-Scanner.jpg"
-                    alt="Card image cap">
-                    </div>
-                    <div class="mask rgba-white-slight"></div>
-                    </a>
-                  
-            
-              
-                  <div class="card-body">
-            
-                 
-                    <h4 class="card-title">Stock Scanner</h4>
-                
-                    <p class="card-text">Click the image to be taken to my first team-based website
-                      utilizing two different APIs.</p>
-                    
-                    <a href="https://github.com/Dkallen117/StockScanner" target="_blank">
-                    <button type="button" class="btn blue-gradient btn-lg">GitHub Respository</button>
-                    </a>
-                  
-                  </div>
-            
-                </div>
-              
-              </div>
-
-
-              <div class="col-md-4 col-sm-12 mb-4">
-
-                <!-- Prezi Presentation Card -->
-                <div class="card animated fadeInUp text-center">
-            
-               
-                  
-                    <div class="bg-image hover zoom">
-                    <a href="https://prezi.com/dwii7bnwk3rz/team-everybody-loves-snarf/" target="_blank">
-                    <img class="card-img-top" src="./assets/images/snarf.jpg"
-                    alt="Card image cap">
-                    </div>
-                    <div class="mask rgba-white-slight"></div>
-                    </a>
-                  
-            
-        
-                    <div class="card-body">
-            
-                 
-                    <h4 class="card-title">Video Game Studio Prezi Presentation</h4>
-                    
-                    <p class="card-text">Click the image to be taken to a team-based prezi presentation 
-                      for a fictional video game studio! (Image Credit: Jason Velazquez // 
-                      <a href="https://dribbble.com/shots/1453837-Snarf-minimal-vector-drawing-ThunderCats" target="_blank">Image Link</a>)</p>
-                  
-                    
-
-                    </div>
-            
-                </div>
-              
-              </div>
-
-
-              <div class="col-md-4 col-sm-12 mb-4">
-               
-                <!-- Metatrons Cube Card -->
-                <div class="card animated fadeInUp text-center">
-            
-                 
-                
-                    <div class="bg-image hover zoom">
-                    <a href="https://www.youtube.com/watch?v=WM8Mky99coE" target="_blank">
-                    <img class="card-img-top" id="meta-Cube-Photo" src="./assets/images/metatrons-cube.png"
-                    alt="Card image cap">
-                    </div>
-                    <div class="mask rgba-white-slight"></div>
-                    </a>
-                  
-            
-              
-                    <div class="card-body">
-            
-                    
-                    <h4 class="card-title">Metatron's Cube YouTube Video</h4>
-                   
-                    <p class="card-text">Click the image to be taken to a YouTube video of my teams fictional video game
-                      pitch to a fictional game studio.</p>
-                    
-                    </div>
-            
-                </div>
-              
-              </div>
-
-
-              <div class="col-md-4 col-sm-12 mb-4" id="weather-Card">
-               
-                <!-- Weather Dashboard Card -->
-                <div class="card animated fadeInUp text-center">
-            
-                  
-                    <div class="bg-image hover zoom">
-                    <img class="card-img-top img-fluid" id="code-Refractor-Photo" src="./assets/images/WeatherPic.png"
-                    alt="Card image cap">
-                    </div>
-                    <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                    </a>
-                  
-            
-                 
-                    <div class="card-body">
-            
-                 
-                    <h4 class="card-title">Weather Dashboard</h4>
-                    
-                    <p class="card-text">Click the image to be taken to a daily and 5-day forecast Weather Dashboard 
-                      application.
-                    </p>
-
-                    <a href="https://github.com/Dkallen117/weather-Dashboard" target="_blank">
-                    <button type="button" class="btn blue-gradient btn-lg">GitHub Respository</button>
-                    </a>
-            
-                    </div>
-            
-                </div>
-             
-              </div>
-
-
-              <div class="col-md-4 col-sm-12 mb-4"  id="code-Card">
-               
-                <!-- Code Refractor Card -->
-                <div class="card animated fadeInUp text-center">
-            
-                  
-                    <div class="bg-image hover zoom">
-                    <img class="card-img-top img-fluid" id="code-Refractor-Photo" src="./assets/images/Screenshot1.jpg"
-                    alt="Card image cap">
-                    </div>
-                    <a href="#!">
-                    <div class="mask rgba-white-slight"></div>
-                    </a>
-                  
-            
-                 
-                    <div class="card-body">
-            
-                 
-                    <h4 class="card-title">Code Refracting</h4>
-                    
-                    <p class="card-text">Click the image to be taken to the first website I practiced code refractoring.
-
-                    </p>
-
-                    <a href="https://github.com/Dkallen117/code-Refractor" target="_blank">
-                    <button type="button" class="btn blue-gradient btn-lg">GitHub Respository</button>
-                    </a>
-            
-                    </div>
-            
-                </div>
-             
-              </div>
-            
             </div>
             
-    </div>
+          </div>
+              
+        </div>
+
+        <div class="col-md-4 col-sm-12 mb-4">
+
+          <!-- Prezi Presentation Card -->
+          <div class="card animated fadeInUp text-center">
+            
+            <div class="bg-image hover zoom">
+            <a href="https://prezi.com/dwii7bnwk3rz/team-everybody-loves-snarf/" target="_blank">
+            <img class="card-img-top" src="./assets/images/snarf.jpg"
+                 alt="Card image cap">
+            </div>
+            <div class="mask rgba-white-slight"></div>
+            </a>
+                
+            <div class="card-body">
+        
+             <h4 class="card-title">Video Game Studio Prezi Presentation</h4>
+                    
+              <p class="card-text">Click the image to be taken to a team-based prezi presentation 
+              for a fictional video game studio! (Image Credit: Jason Velazquez // 
+              <a href="https://dribbble.com/shots/1453837-Snarf-minimal-vector-drawing-ThunderCats" target="_blank">Image Link</a>)</p>
+                  
+             </div>
+            
+          </div>
+              
+         </div>
+
+         <div class="col-md-4 col-sm-12 mb-4">
+               
+          <!-- Metatrons Cube Card -->
+          <div class="card animated fadeInUp text-center">
+            
+           <div class="bg-image hover zoom">
+            <a href="https://www.youtube.com/watch?v=WM8Mky99coE" target="_blank">
+            <img class="card-img-top" id="meta-Cube-Photo" src="./assets/images/metatrons-cube.png"
+                 alt="Card image cap">
+           </div>
+           <div class="mask rgba-white-slight"></div>
+           </a>
+                
+            <div class="card-body">
+            
+             <h4 class="card-title">Metatron's Cube YouTube Video</h4>
+                   
+              <p class="card-text">Click the image to be taken to a YouTube video of my teams fictional video game
+                                   pitch to a fictional game studio.</p>
+                    
+            </div>
+            
+          </div>
+              
+         </div>
+
+         <div class="col-md-4 col-sm-12 mb-4" id="weather-Card">
+               
+          <!-- Weather Dashboard Card -->
+           <div class="card animated fadeInUp text-center">
+            
+            <div class="bg-image hover zoom">
+             <img class="card-img-top img-fluid" id="code-Refractor-Photo" src="./assets/images/WeatherPic.png"
+                  alt="Card image cap">
+            </div>
+            <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+            </a>
+                
+              <div class="card-body">
+
+               <h4 class="card-title">Weather Dashboard</h4>
+                    
+                 <p class="card-text">Click the image to be taken to a daily and 5-day forecast Weather Dashboard 
+                                      application.
+                 </p>
+
+                 <a href="https://github.com/Dkallen117/weather-Dashboard" target="_blank">
+                 <button type="button" class="btn blue-gradient btn-lg">GitHub Respository</button>
+                 </a>
+            
+              </div>
+            
+             </div>
+             
+           </div>
+
+           <div class="col-md-4 col-sm-12 mb-4"  id="code-Card">
+               
+            <!-- Code Refractor Card -->
+            <div class="card animated fadeInUp text-center">
+
+             <div class="bg-image hover zoom">
+              <img class="card-img-top img-fluid" id="code-Refractor-Photo" src="./assets/images/Screenshot1.jpg"
+                   alt="Card image cap">
+             </div>
+             <a href="#!">
+             <div class="mask rgba-white-slight"></div>
+             </a>
+
+              <div class="card-body">
+
+               <h4 class="card-title">Code Refracting</h4>
+                    
+                <p class="card-text">Click the image to be taken to the first website I practiced code refractoring.</p>
+
+                 <a href="https://github.com/Dkallen117/code-Refractor" target="_blank">
+                 <button type="button" class="btn blue-gradient btn-lg">GitHub Respository</button>
+                 </a>
+            
+              </div>
+            
+             </div>
+             
+            </div>
+            
+          </div>           
+     </div>
 
     <footer class="row justify-content-center my-4 animated fadeInUp">
 
@@ -281,14 +243,12 @@
 
     </footer>
 
-   
-
   </main>
 
-   <!-- jQuery -->
-   <script
-   type="text/javascript"
-   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+<!-- jQuery -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
  ></script>
  <!-- Bootstrap tooltips -->
  <script
@@ -302,5 +262,5 @@
  ></script>
 <!-- Moment -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  </body>
+</body>
 </html>
